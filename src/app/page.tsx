@@ -76,7 +76,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition-transform duration-300 hover:-translate-y-0.5 hover:bg-cyan-100"
+                className="inline-flex items-center justify-center rounded-full border border-white/14 bg-white/6 px-6 py-3 text-sm font-semibold text-white/90 backdrop-blur-xl transition-transform duration-300 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
               >
                 Start a project
               </a>
@@ -146,7 +146,7 @@ export default function Home() {
         <section id="work" className="relative z-10 border-t border-white/10 py-12">
           <div className="flex items-end justify-between gap-6">
             <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-white/45">Selected work</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-white/45">Selected Works</p>
               <h2 className="mt-3 text-2xl font-semibold tracking-tight text-white sm:text-3xl">
                 A quick preview of real projects. Open any card for the full featured project details.
               </h2>
@@ -205,7 +205,7 @@ export default function Home() {
               </h2>
               <ul className="mt-4 space-y-2 text-sm leading-7 text-white/70 sm:text-base">
                 <li>
-                  LinkedIn: <a href="https://linkedin.com/paulolivercruz" className="text-cyan-200 hover:text-white">linkedin.com/paulolivercruz</a>
+                  LinkedIn: <a href="https://linkedin.com/in/paulolivercruz" className="text-cyan-200 hover:text-white">linkedin.com/in/paulolivercruz</a>
                 </li>
                 <li>
                   GitHub: <a href="https://github.com/cerphh" className="text-cyan-200 hover:text-white">github.com/cerphh</a>
@@ -235,7 +235,7 @@ export default function Home() {
                   </span>
                 </div>
                 <p className="mt-3 text-sm leading-6 text-white/75">
-                  Available for interviews and project discussions on weekdays.
+                  Available for interviews and project discussions on anytime.
                 </p>
               </div>
             </div>

@@ -481,9 +481,9 @@ export function WorksShowcase() {
 
       <section data-process-grid className="grid gap-5 border-t border-white/10 pt-10 lg:grid-cols-[0.9fr_1.1fr_1.1fr]">
         <div>
-          <p className="text-sm uppercase tracking-[0.3em] text-white/45">How it moves</p>
+          <p className="text-sm uppercase tracking-[0.3em] text-white/45">How I move</p>
           <h2 className="mt-3 text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-            The interaction layer is part of the composition.
+            How I move as a Product and Frontend Engineer
           </h2>
         </div>
 
