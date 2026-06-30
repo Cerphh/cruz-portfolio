@@ -308,7 +308,7 @@ export function WorksShowcase() {
               data-hero-title
               className="mt-6 max-w-4xl text-5xl font-semibold tracking-[-0.06em] text-white sm:text-6xl lg:text-7xl"
             >
-              Case studies that show how I solve problems, build reliably, and ship polished products.
+              Completed projects that show how I solve problems, build reliably, and ship polished products.
             </h1>
 
             <p
@@ -416,7 +416,7 @@ export function WorksShowcase() {
                 <p className="mt-8 text-sm font-medium text-cyan-100 transition-colors group-hover:text-white">
                   {expandedIndex === index
                     ? "Tap again to collapse"
-                    : "Open for full case-study details"}
+                    : "Open for full featured project details"}
                 </p>
 
                 {expandedIndex === index && (

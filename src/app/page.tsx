@@ -148,7 +148,7 @@ export default function Home() {
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-white/45">Selected work</p>
               <h2 className="mt-3 text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-                A quick preview of real projects. Open any card for the full case study.
+                A quick preview of real projects. Open any card for the full featured project details.
               </h2>
             </div>
             <p className="hidden max-w-md text-sm leading-6 text-white/55 md:block">
@@ -166,7 +166,7 @@ export default function Home() {
               >
                 <div className="flex items-center justify-between text-xs uppercase tracking-[0.3em] text-white/40">
                   <span>0{index + 1}</span>
-                  <span>Case study</span>
+                  <span>Featured Project</span>
                 </div>
                 <h3 className="mt-6 text-xl font-semibold text-white">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-white/65">{item.description}</p>
@@ -232,9 +232,6 @@ export default function Home() {
                   </span>
                   <span className="rounded-full border border-white/15 bg-slate-950/35 px-3 py-1 text-xs text-white/80">
                     Batangas, PH
-                  </span>
-                  <span className="rounded-full border border-white/15 bg-slate-950/35 px-3 py-1 text-xs text-white/80">
-                    Open to relocation
                   </span>
                 </div>
                 <p className="mt-3 text-sm leading-6 text-white/75">
