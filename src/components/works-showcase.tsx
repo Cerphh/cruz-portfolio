@@ -72,6 +72,47 @@ const projects = [
     tags: ["Healthcare UX", "Client delivery", "Booking flow"] as const,
     accent: "from-emerald-400/20 via-teal-500/10 to-transparent",
   },
+  {
+    label: "04 / Business",
+    title: "NEXUS - A Web Agency Business Website",
+    summary:
+      "A full-stack business website for a web development agency, featuring services, pricing, and contact forms.",
+    image: "/projects/nexus.png",
+    details: [
+      "NEXUS is a full-stack business website for a web development agency, designed to showcase their services, portfolio, and expertise. The site features a modern, responsive design that highlights the agency's capabilities and provides easy access to contact information and project details.",
+      "I led the design and development of the entire site, ensuring it met the client's branding guidelines while providing an excellent user experience. The site includes a dynamic project showcase, a comprehensive services section, and an integrated contact form for potential clients to get in touch.",
+      "The result is a professional, visually appealing website that effectively communicates the agency's value proposition and helps them attract new clients in a competitive market.",
+    ] as const,
+    stack: "Next.js, Tailwind CSS, Framer Motion",
+    highlights: [
+      "Modern, responsive design that adapts to all device sizes",
+      "Dynamic project showcase with gsap animation for interactivity",
+      "Integrated contact form for seamless client communication",
+    ] as const,
+    tags: ["Business Website", "UI/UX Design", "Client Delivery"] as const,
+    accent: "from-blue-400/20 via-indigo-500/10 to-transparent",
+  },
+  {
+    label: "05 / Template",
+    title: "Lumiere - A Hair Salon Booking Website",
+    summary:
+      "A full-stack booking website for a hair salon, integrated with supabase for admin authentication, rate limitting, and data storage.",
+    image: "/projects/lumiere.png",
+    details: [
+      "Lumiere is a full-stack booking website for a hair salon, designed to streamline the appointment scheduling process for both clients and staff. The site features a user-friendly interface that allows clients to easily view available services, select preferred time slots, and book appointments online.",
+      "I developed the site using Next.js for the frontend and Supabase for backend services, including authentication, rate limiting, and data storage. This setup ensures that the booking process is secure, efficient, and scalable, while also providing salon staff with an easy-to-use admin panel to manage appointments and client information.",
+      "The result is a polished, professional website that enhances the salon's online presence and improves the overall customer experience by making appointment booking quick and convenient.",
+    ] as const,
+    stack: "Next.js, Tailwind CSS, Framer Motion",
+    highlights: [
+      "User-friendly booking interface with real-time availability",
+      "Supabase integration for secure authentication and data management",
+      "Admin panel for salon staff to manage appointments and client info",
+    ] as const,
+    tags: ["Business Website", "UI/UX Design", "Client Delivery"] as const,
+    accent: "from-blue-400/20 via-indigo-500/10 to-transparent",
+  },
+  
 ];
 
 const process = [
@@ -340,7 +381,7 @@ export function WorksShowcase() {
             className="grid gap-4 rounded-[28px] border border-white/10 bg-slate-950/30 p-5 backdrop-blur-xl"
           >
             {[
-              ["03", "featured concepts"],
+              ["05", "featured concepts"],
               ["E2E", "delivery scope"],
               ["UX + FE", "core strength"],
             ].map(([value, label]) => (

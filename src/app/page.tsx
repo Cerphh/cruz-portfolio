@@ -221,7 +221,7 @@ export default function Home() {
             </div>
             <div className="flex w-full max-w-sm flex-col gap-4 self-start">
               <div className="rounded-xl border border-white/12 bg-white/8 px-5 py-3 text-sm font-semibold leading-6 text-white/85 backdrop-blur-xl">
-                Open for internships, junior frontend roles, and freelance collaborations.
+                Open for remote work, junior frontend roles, and freelance collaborations.
               </div>
 
               <div className="rounded-2xl border border-cyan-300/20 bg-cyan-400/10 px-5 py-4 backdrop-blur-xl">
