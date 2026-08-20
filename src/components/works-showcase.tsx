@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { Flip } from "gsap/Flip";
@@ -367,12 +368,12 @@ export function WorksShowcase() {
               >
                 Explore projects
               </a>
-              <a
+              <Link
                 href="/"
                 className="inline-flex items-center justify-center rounded-full border border-white/14 bg-white/6 px-6 py-3 text-sm font-semibold text-white/90 backdrop-blur-xl transition-transform duration-300 hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
               >
                 Back to home
-              </a>
+              </Link>
             </div>
           </div>
 
